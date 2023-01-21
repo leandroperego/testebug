@@ -16,6 +16,7 @@ body{
     height: 150px;
     margin-top: 25px;
     position: relative;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
@@ -33,9 +34,12 @@ body{
 .back{
     background-color: blue;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
 .flip{
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }

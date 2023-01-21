@@ -1,3 +1,3 @@
 card.addEventListener("click", ()=>{
-    card.classList.add("flip");
+    card.classList.toggle("flip");
 });
