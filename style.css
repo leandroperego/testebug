@@ -28,6 +28,8 @@ body{
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 img{
@@ -37,8 +39,6 @@ img{
 .back{
     transform: rotate3d(0, 1, 0, 180deg);
     -webkit-transform: rotate3d(0, 1, 0, 180deg);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 .flip{
