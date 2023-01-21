@@ -33,13 +33,13 @@ body{
 
 .back{
     background-color: blue;
-    transform: rotateY(3.142rad);
-    -webkit-transform: rotateY(3.142rad);
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
 .flip{
-    transform: rotateY(3.142rad);
-    -webkit-transform: rotateY(3.142rad);
+    transform: rotate3d(0, 1, 0, 180deg);
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
 }
