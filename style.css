@@ -18,6 +18,9 @@ body{
     position: relative;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    transition: transform 4s;
+    -webkit-perspective: 500px;
+    perspective: 500px;
 }
 
 .front, .back{
@@ -25,7 +28,6 @@ body{
     height: 100%;
     position: absolute;
     transform-style: preserve-3d;
-
 }
 
 img{
