@@ -28,12 +28,11 @@ body{
 
 }
 
-.front{
-    background-color: red;
+img{
+    width: 100%;
 }
 
 .back{
-    background-color: blue;
     transform: rotate3d(0, 1, 0, 180deg);
     -webkit-transform: rotate3d(0, 1, 0, 180deg);
     -webkit-backface-visibility: hidden;
